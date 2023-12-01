@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+  rel="stylesheet"
+  href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;
+600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" 
+integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- navbar section -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>Udemy</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="contact.html">Login</a></li> -->
+                <li><i class="bi bi-brightness-high-fill" id="toggleDark" class="sun"></i></li>
+            </ul>
+            <!-- <i class="bi bi-brightness-high-fill" id="toggle"></i> -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>Explore your potential by enrolling the most in-demand technology courses, taught by the 
+                    best mentors in the world.</p>
+                    <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header_right">
+                <div class="header_right-image">
+                    <img src="images/header.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+        <!-- end of header -->
+
+        <!-- catregories -->
+        <section class="categories">
+            <div class="container categories_container">
+                <div class="catergories_left">
+                    <h1>Categories</h1>
+                    <p>The differnt categories of courses offered by us that will help you get a job among the best comapnies the world.
+                       Kickstart your jouney with us by enrolling in a course from these categories and become a master in that field.
+                    </p>
+                    <a href="#" class="btn btn1">Learn More</a> 
+                </div>
+                <div class="categories_right">
+                    <article class="category">
+                        <span class="category_icon"><i class="uil uil-bitcoin-circle"></i></span>
+                        <h5>Blockchain</h5>
+                        <p>A Blockchain is a series of digital entries, which cannot be easily changed.</p>
+                    </article>
+                    <article class="category">
+                        <span class="category_icon"><i class="uil uil-megaphone"></i></span>
+                        <h5>Marketting</h5>
+                        <p>Marketing is the component that uses the Internet and online-based digital technologies</p>
+                    </article>
+                    <article class="category">
+                        <span class="category_icon"><i class="uil uil-palette"></i></span>
+                        <h5>Graphic Design</h5>
+                        <p> Graphic Design to create visually appealing products that convey information.</p>
+                    </article>
+                    <article class="category">
+                        <span class="category_icon"><i class="uil uil-usd-circle"></i></span>
+                        <h5>Finance</h5>
+                        <p>Finance is the study and discipline of money, currency and capital assets.</p>
+                    </article>
+                    <article class="category">
+                        <span class="category_icon"><i class="uil uil-music"></i></span>
+                        <h5>Music</h5>
+                        <p>Music is a form of art that uses sound organised in time. It can be used for entertainment.</p>
+                    </article>
+                    <article class="category">
+                        <span class="category_icon"><i class="uil uil-puzzle-piece"></i></span>
+                        <h5>Business</h5>
+                        <p>
+                            Business is the practice of making one's living or making money by producing and selling products.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+     <!-- end of categories -->
+                
+     <!-- popular courses -->
+     
+    <section class="courses">
+        <h2>Popular Courses</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/course1.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                    <p>You will learn about making interactive and responsive social media websites like facebook, instagram etc.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/course2.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Smartphone Website Design</h4>
+                    <p>Here you will learn how to make responive websites that works on your Mobile Phone and tablets.</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="images/course3.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Dashboard UI Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ullam aut in, fugiat molestiae nihil asperiores?</p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+     <!-- end of popular courses -->
+
+          <!-- faqs -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I know the right courses for me?</h4>
+                    <p>Before coming on the site you should know the topic you are looking to learn and by searching that topic you will
+                        find many courses related to that and you choose from one of them.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Can I preview a course before purchasing?</h4>
+                    <p>Yes, you can preview a course before purchasing, but you can only see the contents the course offer not the actual
+                        videos.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Do I have to complete my course by a certain time?</h4>
+                    <p>No, there is no restriction, once you buy a course it is solely yours and it depends on you how much time you 
+                        take to complete it.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I start my course?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit est iure, eius vero voluptatem placeat?
+                         Ratione voluptatibus, suscipit, eaque illum numquam excepturi id laborum asperiores dignissimos quos 
+                         quia perferendis quae?</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How do I pay for a course?</h4>
+                    <p>You can pay for a course through any mode credit, debit card or even through upi.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>How I receive anything after I complete a course?</h4>
+                    <p>There is no certification we currently offer, but we are planning to start it soon.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>I am receiving a payment error.</h4>
+                    <p>There may be a issue on the server side so we suggest you to retry it after some time.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>My Udemy course is missing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit est iure, eius vero voluptatem placeat?
+                         Ratione voluptatibus, suscipit, eaque illum numquam excepturi id laborum asperiores dignissimos quos 
+                         quia perferendis quae?</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>I am having trouble logging in.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit est iure, eius vero voluptatem placeat?
+                         Ratione voluptatibus, suscipit, eaque illum numquam excepturi id laborum asperiores dignissimos quos 
+                         quia perferendis quae?</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="uil uil-plus"></i></div>
+                <div class="question_answer">
+                    <h4>I'm having issues with my audio or video.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit est iure, eius vero voluptatem placeat?
+                         Ratione voluptatibus, suscipit, eaque illum numquam excepturi id laborum asperiores dignissimos quos 
+                         quia perferendis quae?</p>
+                </div>
+            </article>
+        </div>
+    </section>
+         <!-- end of faqs -->
+    <section class="conatiner testimonials_container mySwiper">
+        <h2>Students Testimonilas</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class = "avatar">
+                    <img src="images/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Nitin Gupta</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>This is one of the most student friendly site, the courses offered here are from one of the best mentors
+                        in there respective fields, I bought a course and it was one of the best course and whenever I faced a problem,
+                        they helped me a lot in solving that.
+                    </p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar2.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Shivam Thakur</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>This is one of the most student friendly site, the courses offered here are from one of the best mentors
+                        in there respective fields, I bought a course and it was one of the best course and whenever I faced a problem,
+                        they helped me a lot in solving that.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar3.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Pulkit</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>This is one of the most student friendly site, the courses offered here are from one of the best mentors
+                        in there respective fields, I bought a course and it was one of the best course and whenever I faced a problem,
+                        they helped me a lot in solving that.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Piyush Srivastava</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>This is one of the most student friendly site, the courses offered here are from one of the best mentors
+                        in there respective fields, I bought a course and it was one of the best course and whenever I faced a problem,
+                        they helped me a lot in solving that.</p>
+                </div>
+            </article>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar5.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Pawan Bhat</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>This is one of the most student friendly site, the courses offered here are from one of the best mentors
+                        in there respective fields, I bought a course and it was one of the best course and whenever I faced a problem,
+                        they helped me a lot in solving that.</p>
+                </div>
+            </article>
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>Udemy</h4></a>
+                <p>Start learning from the best courses offered by us.</p>
+            </div>
+        <div class="footer_2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="contact.html">Login</a></li> -->
+            </ul>
+        </div>
+        <div class="footer_3">
+            <h4>Primary</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer_4">
+            <h4>Contact Us</h4>
+            <div>
+                <p>+01 234 567 8910</p>
+                <p>pratham1791.be21@chitkara.edu.in</p>
+            </div>
+            <ul class="footer_socials">
+                <li>
+                    <a href="https://www.facebook.com"><i class="uil uil-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com"><i class="uil uil-instagram-alt"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/home"><i class="uil uil-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/feed/"><i class="uil uil-linkedin-alt"></i></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; PMaini</small>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            600: {
+                slidesPerView:2,
+            }
+          }
+        });
+      </script>
+
+    
+    
+
+
+</body>
+</html>
